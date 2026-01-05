@@ -1,0 +1,9 @@
+#ifndef _USER_CONFIG_OVERRIDE_H_
+#define _USER_CONFIG_OVERRIDE_H_
+
+#define USE_I2C
+#define USE_DISPLAY
+#define USE_DISPLAY_SSD1306
+#define USE_UNIVERSAL_DISPLAY
+
+#endif
