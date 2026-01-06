@@ -1,8 +1,19 @@
-name: Build
+name: Tasmota ESP32-S3 Test Build
 
 on:
   push:
     branches:
       - development
   workflow_dispatch:
-  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Test workflow
+        run: echo "Workflow OK – ESP32-S3"
+
